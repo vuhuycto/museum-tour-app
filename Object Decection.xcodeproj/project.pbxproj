@@ -7,22 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F80A78477DA68BD8DA6D3E0 /* Pods_Object_Decection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC64E003A72ECC89473A5FD /* Pods_Object_Decection.framework */; };
+		7D19A5A7281550E400B41B13 /* MyTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D19A5A6281550E400B41B13 /* MyTicketViewController.swift */; };
+		7D19A5A928155FF000B41B13 /* SaleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D19A5A828155FF000B41B13 /* SaleData.swift */; };
+		7D1D5402280F030400FC9DCD /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D5401280F030400FC9DCD /* DetailsViewController.swift */; };
 		7D6D1029280D44FC0089684A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D1028280D44FC0089684A /* AppDelegate.swift */; };
 		7D6D102B280D44FC0089684A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6D102A280D44FC0089684A /* art.scnassets */; };
-		7D6D102D280D44FC0089684A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D102C280D44FC0089684A /* ViewController.swift */; };
+		7D6D102D280D44FC0089684A /* DetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D102C280D44FC0089684A /* DetectionViewController.swift */; };
 		7D6D1030280D44FC0089684A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6D102E280D44FC0089684A /* Main.storyboard */; };
 		7D6D1032280D44FE0089684A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6D1031280D44FE0089684A /* Assets.xcassets */; };
 		7D6D1035280D44FE0089684A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6D1033280D44FE0089684A /* LaunchScreen.storyboard */; };
+		7D774E9828167E320007EDB6 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D774E9728167E320007EDB6 /* JSON.swift */; };
+		7D90F3882811B66800832FCA /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D90F3872811B66800832FCA /* QRScannerViewController.swift */; };
+		7DA44F6B28117D35000BF948 /* DetailsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA44F6A28117D35000BF948 /* DetailsData.swift */; };
+		7DECF4E028130CB30011C4E8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DECF4DF28130CB30011C4E8 /* Config.swift */; };
+		7DECF4E228130DF30011C4E8 /* TicketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DECF4E128130DF30011C4E8 /* TicketData.swift */; };
+		7DECF4E4281312DA0011C4E8 /* DeviceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DECF4E3281312DA0011C4E8 /* DeviceData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7D6D1025280D44FC0089684A /* Object Decection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Object Decection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6A92DB13C5DEFDDD072324 /* Pods-Object Decection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Object Decection.release.xcconfig"; path = "Target Support Files/Pods-Object Decection/Pods-Object Decection.release.xcconfig"; sourceTree = "<group>"; };
+		6FC64E003A72ECC89473A5FD /* Pods_Object_Decection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Object_Decection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D19A5A6281550E400B41B13 /* MyTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTicketViewController.swift; sourceTree = "<group>"; };
+		7D19A5A828155FF000B41B13 /* SaleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleData.swift; sourceTree = "<group>"; };
+		7D1D5401280F030400FC9DCD /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		7D6D1025280D44FC0089684A /* Object Detection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Object Detection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D6D1028280D44FC0089684A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D6D102A280D44FC0089684A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		7D6D102C280D44FC0089684A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D6D102C280D44FC0089684A /* DetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionViewController.swift; sourceTree = "<group>"; };
 		7D6D102F280D44FC0089684A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D6D1031280D44FE0089684A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D6D1034280D44FE0089684A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D774E9728167E320007EDB6 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		7D90F3872811B66800832FCA /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		7DA44F6A28117D35000BF948 /* DetailsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsData.swift; sourceTree = "<group>"; };
+		7DC816302813065600AA12FE /* Object-Decection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Object-Decection-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7DECF4DF28130CB30011C4E8 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		7DECF4E128130DF30011C4E8 /* TicketData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketData.swift; sourceTree = "<group>"; };
+		7DECF4E3281312DA0011C4E8 /* DeviceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceData.swift; sourceTree = "<group>"; };
+		96475E2F448540915882A0CF /* Pods-Object Decection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Object Decection.debug.xcconfig"; path = "Target Support Files/Pods-Object Decection/Pods-Object Decection.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,24 +53,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F80A78477DA68BD8DA6D3E0 /* Pods_Object_Decection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		171CAB62FF7E7F63B8386C72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96475E2F448540915882A0CF /* Pods-Object Decection.debug.xcconfig */,
+				5F6A92DB13C5DEFDDD072324 /* Pods-Object Decection.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4CD8336E8EA1FCB1A372CD7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FC64E003A72ECC89473A5FD /* Pods_Object_Decection.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D1D5400280F02CE00FC9DCD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D6D102C280D44FC0089684A /* DetectionViewController.swift */,
+				7D1D5401280F030400FC9DCD /* DetailsViewController.swift */,
+				7D90F3872811B66800832FCA /* QRScannerViewController.swift */,
+				7D19A5A6281550E400B41B13 /* MyTicketViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		7D6D101C280D44FC0089684A = {
 			isa = PBXGroup;
 			children = (
 				7D6D1027280D44FC0089684A /* Object Decection */,
 				7D6D1026280D44FC0089684A /* Products */,
+				171CAB62FF7E7F63B8386C72 /* Pods */,
+				4CD8336E8EA1FCB1A372CD7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		7D6D1026280D44FC0089684A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7D6D1025280D44FC0089684A /* Object Decection.app */,
+				7D6D1025280D44FC0089684A /* Object Detection.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,14 +109,37 @@
 		7D6D1027280D44FC0089684A /* Object Decection */ = {
 			isa = PBXGroup;
 			children = (
+				7DC816302813065600AA12FE /* Object-Decection-Info.plist */,
+				7D774E9628167E1F0007EDB6 /* Utils */,
+				7D1D5400280F02CE00FC9DCD /* Controllers */,
+				7DA44F6928117D14000BF948 /* Models */,
 				7D6D1028280D44FC0089684A /* AppDelegate.swift */,
 				7D6D102A280D44FC0089684A /* art.scnassets */,
-				7D6D102C280D44FC0089684A /* ViewController.swift */,
 				7D6D102E280D44FC0089684A /* Main.storyboard */,
 				7D6D1031280D44FE0089684A /* Assets.xcassets */,
 				7D6D1033280D44FE0089684A /* LaunchScreen.storyboard */,
+				7DECF4DF28130CB30011C4E8 /* Config.swift */,
 			);
 			path = "Object Decection";
+			sourceTree = "<group>";
+		};
+		7D774E9628167E1F0007EDB6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7D774E9728167E320007EDB6 /* JSON.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7DA44F6928117D14000BF948 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7DA44F6A28117D35000BF948 /* DetailsData.swift */,
+				7DECF4E128130DF30011C4E8 /* TicketData.swift */,
+				7DECF4E3281312DA0011C4E8 /* DeviceData.swift */,
+				7D19A5A828155FF000B41B13 /* SaleData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D6D1038280D44FE0089684A /* Build configuration list for PBXNativeTarget "Object Decection" */;
 			buildPhases = (
+				99E1B958856764AC4A31FBF2 /* [CP] Check Pods Manifest.lock */,
 				7D6D1021280D44FC0089684A /* Sources */,
 				7D6D1022280D44FC0089684A /* Frameworks */,
 				7D6D1023280D44FC0089684A /* Resources */,
+				416E45F478B719A5FF2399DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -82,7 +161,7 @@
 			);
 			name = "Object Decection";
 			productName = "Object Decection";
-			productReference = 7D6D1025280D44FC0089684A /* Object Decection.app */;
+			productReference = 7D6D1025280D44FC0089684A /* Object Detection.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,13 +211,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		416E45F478B719A5FF2399DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Object Decection/Pods-Object Decection-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Object Decection/Pods-Object Decection-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Object Decection/Pods-Object Decection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E1B958856764AC4A31FBF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Object Decection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7D6D1021280D44FC0089684A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D6D102D280D44FC0089684A /* ViewController.swift in Sources */,
+				7DA44F6B28117D35000BF948 /* DetailsData.swift in Sources */,
+				7D774E9828167E320007EDB6 /* JSON.swift in Sources */,
+				7D6D102D280D44FC0089684A /* DetectionViewController.swift in Sources */,
 				7D6D1029280D44FC0089684A /* AppDelegate.swift in Sources */,
+				7D90F3882811B66800832FCA /* QRScannerViewController.swift in Sources */,
+				7DECF4E228130DF30011C4E8 /* TicketData.swift in Sources */,
+				7DECF4E4281312DA0011C4E8 /* DeviceData.swift in Sources */,
+				7D1D5402280F030400FC9DCD /* DetailsViewController.swift in Sources */,
+				7D19A5A7281550E400B41B13 /* MyTicketViewController.swift in Sources */,
+				7D19A5A928155FF000B41B13 /* SaleData.swift in Sources */,
+				7DECF4E028130CB30011C4E8 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +410,7 @@
 		};
 		7D6D1039280D44FE0089684A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96475E2F448540915882A0CF /* Pods-Object Decection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -287,6 +418,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5VW4X59F9Z;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Object-Decection-Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -300,16 +432,17 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vuhuy.Object-Decection";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vuhuy.Object-Detection";
+				PRODUCT_NAME = "Object Detection";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7D6D103A280D44FE0089684A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6A92DB13C5DEFDDD072324 /* Pods-Object Decection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,6 +450,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5VW4X59F9Z;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Object-Decection-Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -330,11 +464,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vuhuy.Object-Decection";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vuhuy.Object-Detection";
+				PRODUCT_NAME = "Object Detection";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

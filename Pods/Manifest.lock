@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (5.6.0)
+  - Braintree (5.9.0):
+    - Braintree/Card (= 5.9.0)
+    - Braintree/Core (= 5.9.0)
+    - Braintree/PayPal (= 5.9.0)
+  - Braintree/Card (5.9.0):
+    - Braintree/Core
+  - Braintree/Core (5.9.0)
+  - Braintree/DataCollector (5.9.0):
+    - Braintree/Core
+  - Braintree/PayPal (5.9.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+  - Braintree/PayPalDataCollector (5.9.0)
+  - MercariQRScanner (1.9.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Braintree
+  - Braintree/DataCollector
+  - MercariQRScanner
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Braintree
+    - MercariQRScanner
+
+SPEC CHECKSUMS:
+  Alamofire: 0c07058209f211e3d32824f8e0766d7c44ac83b3
+  Braintree: 0fc239fcba70ed286130ed38ea18e3da6b7e9259
+  MercariQRScanner: e5aea873969af59b09b4cc411fc1c5b6293dba44
+
+PODFILE CHECKSUM: 283ecc3a1bd850158e7963667226e68f0857ce07
+
+COCOAPODS: 1.11.3

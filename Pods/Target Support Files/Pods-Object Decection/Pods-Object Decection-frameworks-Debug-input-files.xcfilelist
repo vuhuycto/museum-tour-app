@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Object Decection/Pods-Object Decection-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Braintree/Braintree.framework
+${BUILT_PRODUCTS_DIR}/MercariQRScanner/MercariQRScanner.framework

@@ -1,0 +1,23 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "Scan_10-50-14.arobject"
+    },
+    {
+      "filename" : "Scan_10-51-50.arobject"
+    },
+    {
+      "filename" : "Scan_11-12-38.arobject"
+    },
+    {
+      "filename" : "Scan_11-20-18.arobject"
+    },
+    {
+      "filename" : "Scan_13-52-50.arobject"
+    }
+  ]
+}

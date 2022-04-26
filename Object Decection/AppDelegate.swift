@@ -6,15 +6,15 @@
 //
 
 import UIKit
+import Braintree
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        BTAppContextSwitcher.setReturnURLScheme(Config.returnURLScheme)
         return true
     }
 
@@ -35,6 +35,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     }
 
-
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        if url.scheme?.localizedCaseInsensitiveCompare(Config.returnURLScheme) == .orderedSame {
+            return BTAppContextSwitcher.handleOpenURL(url)
+        }
+        return false
+    }
 }
 
