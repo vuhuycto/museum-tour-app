@@ -10,5 +10,6 @@ target 'Object Decection' do
   pod 'MercariQRScanner'
   pod 'Braintree'
   pod 'Braintree/DataCollector'
+  pod 'JWTDecode', '~> 2.6'
 
 end

@@ -3,6 +3,7 @@ import AVFoundation
 import MercariQRScanner
 import Braintree
 import Alamofire
+import JWTDecode
 
 class QRScannerViewController: UIViewController {
     
@@ -15,21 +16,19 @@ class QRScannerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         if let ticketAccessToken = storage.string(forKey: Config.ticketAccessTokenStorageKey) {
-            AF.request(
-                "\(baseURL)/validity",
-                method: .get,
-                headers: [
-                    .authorization("Bearer \(ticketAccessToken)"),
-                    .contentType("application/json")
-                ]
-            ).response { response in
-                if response.response?.statusCode == 401 {
-                    self.setupQRScanner()
-                    return
-                }
-                
-                self.performSegue(withIdentifier: "goToDetection", sender: self)
+            guard let jwt = try? decode(jwt: ticketAccessToken) else {
+                self.setupQRScanner()
+                return
             }
+            
+            let timestamp = NSDate().timeIntervalSince1970
+            if timestamp - (jwt.body["iat"] as! Double) > 86400 {
+                storage.removeObject(forKey: Config.ticketAccessTokenStorageKey)
+                self.setupQRScanner()
+                return
+            }
+            
+            self.performSegue(withIdentifier: "goToDetection", sender: self)
         } else {
             setupQRScanner()
         }
@@ -116,6 +115,7 @@ extension QRScannerViewController: QRScannerViewDelegate {
                         encoder: .json
                     ).responseDecodable(of: TicketData.self) { response in
                         if let ticket = response.value {
+                            print(ticket.access_token)
                             self.storage.set(ticket.access_token, forKey: Config.ticketAccessTokenStorageKey)
                             self.performSegue(withIdentifier: self.detectionSegueIdentifier, sender: self)
                         }

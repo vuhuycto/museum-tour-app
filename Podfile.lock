@@ -13,25 +13,29 @@ PODS:
     - Braintree/Core
     - Braintree/PayPalDataCollector
   - Braintree/PayPalDataCollector (5.9.0)
+  - JWTDecode (2.6.3)
   - MercariQRScanner (1.9.0)
 
 DEPENDENCIES:
   - Alamofire
   - Braintree
   - Braintree/DataCollector
+  - JWTDecode (~> 2.6)
   - MercariQRScanner
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - Braintree
+    - JWTDecode
     - MercariQRScanner
 
 SPEC CHECKSUMS:
   Alamofire: 0c07058209f211e3d32824f8e0766d7c44ac83b3
   Braintree: 0fc239fcba70ed286130ed38ea18e3da6b7e9259
+  JWTDecode: 33e5e26e5ddbd21b2065820894c08fef0cad9509
   MercariQRScanner: e5aea873969af59b09b4cc411fc1c5b6293dba44
 
-PODFILE CHECKSUM: 283ecc3a1bd850158e7963667226e68f0857ce07
+PODFILE CHECKSUM: 781654d11564ceac3bb5929442eab5e9f3d7cd36
 
 COCOAPODS: 1.11.3
