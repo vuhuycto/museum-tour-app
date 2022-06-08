@@ -49,7 +49,7 @@ class DetectionViewController: UIViewController, ARSessionDelegate, ARSCNViewDel
     }
     
     func isSpecifiedAnchorName(_ name: String) -> Bool {
-        return name == "Scan_11-12-38" || name == "Scan_11-20-18"
+        return name == "Scan_11-12-38" || name == "Scan_11-20-18" || name == "Scan_10-16-6"
     }
     
     func drawText(content: String, position: SCNVector3, color: UIColor, fontSize: Float) -> SCNNode {
